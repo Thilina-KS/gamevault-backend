@@ -1,7 +1,7 @@
 const https = require('https');
 
 // Replace with your Render URL after deployment
-const RENDER_URL = 'https://your-render-url.onrender.com';
+const RENDER_URL = 'https://gamevault-backend-jdcn.onrender.com';
 
 function pingServer() {
   https.get(RENDER_URL, (resp) => {
